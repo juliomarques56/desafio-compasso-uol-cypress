@@ -1,0 +1,7 @@
+version: '3.2'
+services:
+  cypress:
+    image: "cypress/included:4.4.0"
+    working_dir: /desafio-compasso-uol-cypress
+    volumes:
+      - ./:/desafio-compasso-uol-cypress
