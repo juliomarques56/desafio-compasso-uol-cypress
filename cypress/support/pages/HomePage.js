@@ -10,7 +10,7 @@ export default class HomePage {
         cy.visit(url + 'index.php');
     };
 
-    pesquisarProduto(search) {
+    searchProduct(search) {
         cy
             .get(homeElements.inputSearch())
             .type(search);

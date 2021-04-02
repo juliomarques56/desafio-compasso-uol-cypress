@@ -11,8 +11,8 @@ Given("que acesso o site {}", (site) => {
 	homePage.acessarSite(site);
 });
 
-And("pesquiso pelo produto", () => {
-    homePage.pesquisarProduto(product.name);
+And("pesquiso pelo conteudo Faded Short Sleeve", () => {
+    homePage.searchProduct(product.name);
 });
 
 When("adiciono o primeiro produto retornado pela pesquisa", () => {

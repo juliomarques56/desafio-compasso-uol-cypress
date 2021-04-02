@@ -1,10 +1,4 @@
-// export default class HomeElements{
-
-//     inputSearch() { return '#search_query_top'}
-//     btnSearch() { return '#searchbox > .button-search'}
-//     resultSearch() { return '.right-block > h5 > .product-name'}
-// }
-
+/// <reference types="cypress" />
 
 export default class HomeElements{
 
